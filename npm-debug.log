@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ionic' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 verbose cache add [ 'ionic', null ]
+5 verbose cache add spec="ionic" args=["ionic",null]
+6 verbose parsed spec { raw: 'ionic',
+6 verbose parsed spec   scope: null,
+6 verbose parsed spec   name: 'ionic',
+6 verbose parsed spec   rawSpec: '',
+6 verbose parsed spec   spec: '*',
+6 verbose parsed spec   type: 'range' }
+7 verbose parsed spec { raw: 'ionic',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: 'ionic',
+7 verbose parsed spec   rawSpec: '',
+7 verbose parsed spec   spec: '*',
+7 verbose parsed spec   type: 'range' }
+8 verbose addNamed [ 'ionic', '*' ]
+9 verbose addNamed [ null, '*' ]
+10 silly lockFile bf13f592-ionic ionic@*
+11 verbose lock ionic@* /home/anuradha/.npm/bf13f592-ionic.lock
+12 silly lockFile bf13f592-ionic ionic@*
+13 verbose stack Error: Attempt to unlock ionic@*, which hasn't been locked
+13 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+13 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+13 verbose stack     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:41:20
+13 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+13 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+13 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+13 verbose stack     at Object.oncomplete (fs.js:93:15)
+14 verbose cwd /home/anuradha/Bhuvnesh/ionic/ionic-app-base
+15 error Linux 3.13.0-49-generic
+16 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "ionic"
+17 error node v0.11.14
+18 error npm  v2.0.0
+19 error Attempt to unlock ionic@*, which hasn't been locked
+20 error If you need help, you may report this error at:
+20 error     <http://github.com/npm/npm/issues>
+21 verbose exit [ 1, true ]
